@@ -9,7 +9,7 @@
 a.add, a.edit, a.delete, a.search, a.ok, a.cancel, a.mail, a.heart, a.user, a.movie, a.list, a.zoom-in, a.zoom-out,
 a.settings, a.home, a.blank, a.clock, a.reload, a.lock, a.flag, a.tag, a.tags, a.bookmark, a.photo, a.picture, a.location,
 a.contrast, a.help, a.info, a.alert, a.calendar, a.shuffle, a.comment, a.like, a.dislike, a.gift, a.filter, a.expand, a.collapse,
-a.mark, a.unmark, a.reply, a.back, a.forward, a.up, a.down, a.disable, a.move
+a.mark, a.unmark, a.reply, a.back, a.forward, a.up, a.down, a.disable, a.move, a.link, a.print
   position:     relative
   display:      inline-block
   padding-left: 18px
@@ -21,7 +21,7 @@ a.home:before, a.blank:before, a.clock:before, a.reload:before, a.lock:before, a
 a.bookmark:before, a.photo:before, a.picture:before, a.location:before, a.contrast:before, a.help:before, a.info:before,
 a.alert:before, a.calendar:before, a.shuffle:before, a.comment:before, a.like:before, a.dislike:before, a.gift:before,
 a.filter:before, a.expand:before, a.collapse:before, a.mark:before, a.unmark:before, a.reply:before, a.back:before,
-a.forward:before, a.up:before, a.down:before, a.disable:before, a.move:before
+a.forward:before, a.up:before, a.down:before, a.disable:before, a.move:before, a.link:before, a.print:before
   position:   absolute
   left:       0
   top:        1px
@@ -29,7 +29,7 @@ a.forward:before, a.up:before, a.down:before, a.disable:before, a.move:before
   width:      16px
   height:     16px
   background: url(images/icons.png) no-repeat 0px 0px
-  opacity:    .8
+  opacity:    .75
 
 
 a.add:hover:before, a.edit:hover:before, a.delete:hover:before, a.search:hover:before, a.ok:hover:before,
@@ -41,10 +41,8 @@ a.location:hover:before, a.contrast:hover:before, a.help:hover:before, a.info:ho
 a.calendar:hover:before, a.shuffle:hover:before, a.comment:hover:before, a.like:hover:before, a.dislike:hover:before,
 a.gift:hover:before, a.filter:hover:before, a.expand:hover:before, a.collapse:hover:before, a.mark:hover:before,
 a.unmark:hover:before, a.reply:hover:before, a.back:hover:before, a.forward:hover:before, a.up:hover:before,
-a.down:hover:before, a.disable:hover:before, a.move:hover:before
+a.down:hover:before, a.disable:hover:before, a.move:hover:before, a.link:hover:before, a.print:hover:before
   opacity: 1
-
-
 
 a.search:before
   background-position:  -47px 1px
@@ -92,6 +90,8 @@ a.tags:before
   background-position:  -24px -47px
 a.bookmark:before
   background-position:  -70px -47px
+a.print:before
+  background-position: -95px -47px
 a.photo:before
   background-position: -119px -47px
 a.picture:before
@@ -102,6 +102,8 @@ a.location:before
   background-position:  -23px -71px
 a.contrast:before
   background-position:  -47px -71px
+a.link:before
+  background-position: -119px -71px
 a.move:before
   background-position: -167px -71px
 a.help:before
