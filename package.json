@@ -1,7 +1,9 @@
 {
   "name":        "glyph-icons",
-  "version":     "0.0.0",
-  "description": "My super lovely module",
+  "version":     "1.0.0",
+  "description": "Glyph icons drop in stylesheets",
   "author":      "Nikolay Nemshilov",
-  "license":     "MIT"
+  "license":     "MIT",
+  "home_url":    "https://github.com/MadRabbit/glyph-icons",
+  "tags":        "themes"
 }
